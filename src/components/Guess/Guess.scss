@@ -1,0 +1,11 @@
+.Guess {
+  display: grid;
+  place-content: center;
+  margin-block: 3rem;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

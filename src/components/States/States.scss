@@ -1,0 +1,17 @@
+.States {
+  width: 100vw;
+  margin-top: 3rem;
+  margin-inline: 1rem;
+
+  &__data {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+
+    ul {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+  }
+}
