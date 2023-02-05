@@ -2,7 +2,7 @@
   background-color: white;
   color: black;
   border-bottom: 2px solid rgb(30, 104, 165);
-  box-shadow: 0 2px 2px 0 #999;
+  z-index: 3;
 
   ul {
     display: flex;

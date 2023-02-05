@@ -1,7 +1,31 @@
 .Guess {
-  display: grid;
-  place-content: center;
-  margin-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .results {
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    padding-block: 1rem;
+    color: white;
+    transition: background-color 450ms linear;
+
+    &[data-status="Success"] {
+      background-color: green;
+    }
+
+    &[data-status="Fail"] {
+      background-color: red;
+      color: white;
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    place-content: center;
+    margin-block: 3rem;
+  }
 
   form {
     display: flex;
